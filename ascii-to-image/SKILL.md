@@ -34,9 +34,9 @@ allowed-tools: Read, Write, Edit, Glob, Bash
 根据语义理解生成专业的 SVG 代码，保存到 `images/<name>.svg`。
 
 ### Step 5: 转换为 PNG
-调用 resvg 工具（使用 --dpi 200 提高清晰度）：
+调用 resvg 工具（使用 --dpi 600 提高清晰度）：
 ```bash
-.claude/skills/ascii-to-image/scripts/resvg.exe --dpi 200 images/<name>.svg images/<name>.png
+.claude/skills/ascii-to-image/scripts/resvg.exe --dpi 600 images/<name>.svg images/<name>.png
 ```
 批量转换时，对每个 SVG 文件分别调用上述命令。
 
@@ -55,7 +55,7 @@ allowed-tools: Read, Write, Edit, Glob, Bash
 ### 文字清晰度（重要）
 1. **字体粗细**: `font-weight="bold"` 或 `font-weight="700"`，必须加粗
 2. **字号**: 最小 14px，标题 16-20px
-3. **字体**: `font-family="Microsoft YaHei, Arial, sans-serif"`
+3. **字体**: `font-family="Microsoft YaHei, Arial, sans-serif"`（中文字体必须在前）
 4. **居中**: `text-anchor="middle"`
 5. **颜色**: 统一使用 `white`，保持视觉一致性
 
