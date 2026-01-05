@@ -55,7 +55,7 @@ allowed-tools: Read, Write, Edit, Glob, Bash
 ### 文字清晰度（重要）
 1. **字体粗细**: `font-weight="bold"` 或 `font-weight="700"`，必须加粗
 2. **字号**: 最小 14px，标题 16-20px
-3. **字体**: `font-family="Arial, Microsoft YaHei, sans-serif"`
+3. **字体**: `font-family="Microsoft YaHei, Arial, sans-serif"`
 4. **居中**: `text-anchor="middle"`
 5. **颜色**: 统一使用 `white`，保持视觉一致性
 
